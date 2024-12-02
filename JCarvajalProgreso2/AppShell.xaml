@@ -12,4 +12,22 @@
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
 
+
+    <TabBar>
+        <ShellContent
+            Title="Notes"
+            ContentTemplate="{DataTemplate Views:AllNotesPage}"
+            Icon="{OnPlatform 'alvaro.png', iOS='alvaro.png', MacCatalyst='alvaro.png'}" />
+
+        <ShellContent
+            Title="About"
+            ContentTemplate="{DataTemplate Views:AboutPage}"
+            Icon="{OnPlatform 'aye.jpg', iOS='aye.jpg', MacCatalyst='aye.jpg'}" />
+
+
+    </TabBar>
+
+
+
+
 </Shell>
