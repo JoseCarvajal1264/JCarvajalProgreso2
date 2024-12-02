@@ -10,10 +10,10 @@ namespace JCarvajalProgreso2.Interfaces
     public interface IRecargaRepos
     {
         IEnumerable<JCarvajalDatos> DevuelveRecarga();
-        JCarvajalDatos DevuelveRecarga(int id);
+        JCarvajalDatos DevuelveRecarga(int Nombre);
         bool CrearRecarga(JCarvajalDatos recarga);
         bool ActualizarRecarga(JCarvajalDatos recarga);
-        bool ElminarEstudianteUdla(int id);
+
 
     }
 }

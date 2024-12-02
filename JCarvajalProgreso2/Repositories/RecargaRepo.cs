@@ -9,7 +9,7 @@ namespace JCarvajalProgreso2.Repositories
 {
     public class RecargaRepo : IRecargaRepos
     {
-        public string _fileName = Path.Combine(FileSystem.AppDataDirectory, "JCarvajal.txt");
+        public string _fileName = Path.Combine(FileSystem.AppDataDirectory, "JoseCarvajal.txt");
         public bool ActualizarRecarga(JCarvajalDatos recarga)
         {
             throw new NotImplementedException();
