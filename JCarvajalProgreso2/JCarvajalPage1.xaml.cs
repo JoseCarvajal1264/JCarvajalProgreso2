@@ -1,6 +1,8 @@
 using Android.Content.Res;
 using JCarvajalProgreso2.Models;
 using JCarvajalProgreso2.Repositories;
+using JCarvajalProgreso2.Interfaces;
+
 
 namespace JCarvajalProgreso2;
 
