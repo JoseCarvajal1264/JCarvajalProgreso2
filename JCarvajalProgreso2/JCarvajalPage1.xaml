@@ -8,5 +8,35 @@
             Text="Welcome"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
+
+
+        <Editor
+                x:Name="editor_id"
+                Placeholder="Ingrese el Numero" 
+                AutoSize="TextChanges"/>
+        }
+        <Editor
+                x:Name="editor_id"
+                Placeholder="Ingrese el Nombre" 
+                AutoSize="TextChanges"/>
+
+        <Label
+                x:Name="label_nombre"
+               Text="{Binding Numero}"/>
+
+        <Label
+                x:Name="label_carrera"
+                Text="{Binding Nombre}" />
+
+
+        <Button
+                x:Name="GuardarRecarga"
+                Text="Guardar Recarga"                
+                Clicked="GuardarRecarga_Clicked"/>
     </VerticalStackLayout>
+    
+    
+    
+    
+    
 </ContentPage>

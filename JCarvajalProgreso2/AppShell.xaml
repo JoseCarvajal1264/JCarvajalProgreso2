@@ -12,12 +12,12 @@
         <ShellContent
             Title="Notes"
             ContentTemplate="{DataTemplate local:JCarvajalPage1}"
-            Icon="{OnPlatform 'alvaro.png', iOS='alvaro.png', MacCatalyst='alvaro.png'}" />
+            Icon="{OnPlatform 'sayo.jpg', iOS='sayo.jpg', MacCatalyst='sayo.jpg'}" />
 
         <ShellContent
             Title="About"
             ContentTemplate="{DataTemplate local:JCarvajalPage2}"
-            Icon="{OnPlatform 'aye.jpg', iOS='aye.jpg', MacCatalyst='aye.jpg'}" />
+            Icon="{OnPlatform 'sayo.jpg', iOS='sayo.jpg', MacCatalyst='sayo.jpg'}" />
 
 
     </TabBar>
